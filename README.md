@@ -1,7 +1,7 @@
 ## Welcome to The Aepynoris!
 * About Me
 * Blog
-* Projects
+* [Projects](https://SirEctor.github.io/projects)
 
 You can use the [editor on GitHub](https://github.com/SirEctor/SirEctor.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

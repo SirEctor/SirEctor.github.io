@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Projects"
-permalink: /projects/
+title: "Blog"
+permalink: /blog/
 ---
 ## The Aepynoris

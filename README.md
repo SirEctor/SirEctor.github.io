@@ -1,4 +1,4 @@
-## Welcome to The Aepynoris!
+## Welcome to The Aepyornis!
 * [About Me](https://SirEctor.github.io/about)
 * [Blog](https://SirEctor.github.io/blog)
 * [Projects](https://SirEctor.github.io/projects)

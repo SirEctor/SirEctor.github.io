@@ -8,4 +8,5 @@ permalink: /projects/
 - [Bracket Chooser](https://sirector.github.io/projects/bracketchooser/)
 - [Voice Determiner](https://sirector.github.io/projects/voicedeterminer/)
 - [Markov Bot](https://sirector.github.io/projects/markovbot/)
+- [Video Captioner](https://sirector.github.io/projects/videocaptioner/)
 

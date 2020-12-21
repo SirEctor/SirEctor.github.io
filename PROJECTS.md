@@ -9,4 +9,6 @@ permalink: /projects/
 - [Voice Determiner](https://sirector.github.io/projects/voicedeterminer/)
 - [Markov Bot](https://sirector.github.io/projects/markovbot/)
 - [Video Captioner](https://sirector.github.io/projects/videocaptioner/)
+- [Youtube Racers](https://sirector.github.io/projects/youtuberacer/)
+
 

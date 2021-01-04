@@ -5,4 +5,4 @@ permalink: /random/
 ---
 ## Random
 <h1>Hmmm....</h1>
->> {{ ["Talent is just pursued practice - Bob Ross", "To be or not to be"] | sample }}
+<script src="scripts/random.js" type="text/javascript"></script>

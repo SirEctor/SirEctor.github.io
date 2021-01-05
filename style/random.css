@@ -1,0 +1,9 @@
+body {
+  background-color: silver;
+}
+h1,p {
+  color:white;
+  text-align: center;
+  border-style:double;
+  background: green;
+}

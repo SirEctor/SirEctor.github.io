@@ -5,32 +5,12 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ProjectDisplay from "./ProjectDisplay.js";
 import Stack from '@mui/material/Stack';
-import Papa from 'papaparse';
 import { useState, useEffect } from "react";
+import { getDataFromCSV } from "./Utilities.js";
 
 function Projects(){
     const [projects, setProjects] = useState([])
     const [currentProjectNum, setCurrentProjectNum] = useState(0)
-    const [currentProjectType, setCurrentProjectType] = useState('')
-    const [currentClassName, setClassName] = useState('')
-    const [currentProjectName, setCurrentProjectName] = useState('')
-    const [currentProjectLink, setCurrentProjectLink] = useState('')
-    const [currentProjectDescription, setCurrentProjectDescription] = useState('')
-
-
-
-    async function getDataFromCSV(filePath, variableFunc){
-        const resp = await fetch(filePath);
-        const reader = resp.body.getReader();
-        const result = await reader.read();
-        const d = new TextDecoder('utf-8');
-        const csv = d.decode(result.value);
-    
-        const results = Papa.parse(csv, {header: true});
-        const rows = results.data;
-       
-        variableFunc(rows);
-    }
 
     useEffect(() => {
         getDataFromCSV('./projects.csv', setProjects)

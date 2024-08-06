@@ -19,5 +19,4 @@ export async function getDataFromCSV(filePath, variableFunc){
     const rows = results.data;
    
     variableFunc(rows);
-    console.log(rows);
 }

@@ -18,7 +18,7 @@ function Contact(){
             <Button type="submit" sx={{flex: 1, mt: 2}}>Submit</Button>
             </form>
             
-            <Button variant="outlined"  sx={{mt: 2, color: "darkGray"}}  component={Link} to='/'>Home</Button>
+            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", ':hover': {transform: "scale(1.25)"}}}  component={Link} to='/'>Home</Button>
         </div>
     )
 }

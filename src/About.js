@@ -12,7 +12,7 @@ function About(){
                         An idealist aiming to design the future of ubiquitous tech through software and programming.
                     </Typography>
                 </Grid>
-                <Button variant="outlined"  sx={{mt: 2,  color: "darkGray"}}  component={Link} to='/'>Home</Button>
+                <Button variant="outlined"  sx={{mt: 2,  color: "darkGray", ':hover': {transform: "scale(1.25)"}}}  component={Link} to='/'>Home</Button>
             </div>
         </>
         

@@ -10,10 +10,10 @@ import { Button } from "@mui/material";
 function restOfAppPage(){
   return(
     <div className="App-header" sx={{ flexDirection: "column",  m: 1, minWidth: 120, flex: 1}}>
-      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw"}}  size="large" component={Link} to='/about'>About</Button>
-      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw"}}  size="large" component={Link} to='/skills'>Skills</Button>
-      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw"}}  size="large" component={Link} to='/projects'>Projects</Button>
-      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw"}}  size="large" component={Link} to='/contact'>Contact</Button>
+      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw", ':hover': {transform: "scale(1.25)"}}}  size="large" component={Link} to='/about'>About</Button>
+      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw", ':hover': {transform: "scale(1.25)"}}}  size="large" component={Link} to='/skills'>Skills</Button>
+      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw", ':hover': {transform: "scale(1.25)"}}}  size="large" component={Link} to='/projects'>Projects</Button>
+      <Button variant="outlined"  sx={{mt: 2, color: "darkGray", fontSize:"4vw", ':hover': {transform: "scale(1.25)"}}}  size="large" component={Link} to='/contact'>Contact</Button>
       <h6 sx={{mt: 2}} style={{color: "#a9a9a9"}}>Created by E. Teshome (2024)</h6>
     </div>
   )

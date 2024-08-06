@@ -17,7 +17,7 @@ function Skills(){
                     return(<Box key={index} sx={{ ...commonStyles, borderRadius: '16px' }}>{skill.SKILL}</Box>)
                 }): "LOADING"}
             </Stack>         
-            <Button variant="outlined"  sx={{mt: 2, color: "darkGray"}}  component={Link} to='/'>Home</Button>
+            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", ':hover': {transform: "scale(1.25)"}}}  component={Link} to='/'>Home</Button>
         </div>
     )
 }

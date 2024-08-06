@@ -43,7 +43,7 @@ function Projects(){
                 </IconButton>
             </Stack>
             
-            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", bottom: 0, position: "fixed", mb: 2 }}  component={Link} to='/'>Home</Button>
+            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", bottom: 0, position: "fixed", mb: 2, ':hover': {transform: "scale(1.25)"} }}  component={Link} to='/'>Home</Button>
         </div>
     )
 }

@@ -36,14 +36,14 @@ function Projects(){
                 </IconButton>
                 {projects ? projects.map((project, index) => (
                     index === currentProjectNum ?
-                    <ProjectDisplay key={index} projectType={project.PROJECTTYPE} pclassName={project.CLASSNAME} projectName={project.PROJECTNAME} link={project.LINK} desc={project.DESCRIPTION} skills={project.SKILLS} />   : <></> 
+                    <ProjectDisplay key={index.toString() + "-project"} projectType={project.PROJECTTYPE} pclassName={project.CLASSNAME} projectName={project.PROJECTNAME} link={project.LINK} desc={project.DESCRIPTION} skills={project.SKILLS} />   : <></> 
                 )) : "LOADING"}
                 <IconButton aria-label="arrowright" onClick={handleRight}>
                     <ArrowRightIcon color="primary"  sx={{ fontSize: 100 }} />
                 </IconButton>
             </Stack>
             
-            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", bottom: 0, position: "fixed", mb: 2, ':hover': {transform: "scale(1.25)"} }}  component={Link} to='/'>Home</Button>
+            <Button variant="outlined"  sx={{mt: 2, color: "darkGray", bottom: 0, mb: 2, ':hover': {transform: "scale(1.25)"} }}  component={Link} to='/'>Home</Button>
         </div>
     )
 }
